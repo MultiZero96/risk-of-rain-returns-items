@@ -10,3 +10,22 @@
     font-family: "MINECRAFT";
     src: url("../src/Minecraft.ttf");
 }
+
+@keyframes slideRight {
+    0% {
+        background-position-y: 0px;
+    }
+
+    50% {
+        background-position-y: -60px;
+    }
+
+    100% {
+        background-position-y: 0px;
+    }
+}
+
+.animate-slide-right {
+    animation: slideRight 9s ease-in-out infinite;
+    /* Adjust the duration as needed */
+}
