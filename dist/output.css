@@ -580,12 +580,12 @@ video {
   left: 50%;
 }
 
-.left-\[44\%\] {
-  left: 44%;
+.left-\[45\%\] {
+  left: 45%;
 }
 
-.left-\[60\%\] {
-  left: 60%;
+.left-\[63\%\] {
+  left: 63%;
 }
 
 .top-1\/2 {
@@ -598,14 +598,6 @@ video {
 
 .top-full {
   top: 100%;
-}
-
-.left-\[45\%\] {
-  left: 45%;
-}
-
-.left-\[63\%\] {
-  left: 63%;
 }
 
 .z-10 {
@@ -632,10 +624,6 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .flex {
@@ -699,10 +687,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.whitespace-normal {
-  white-space: normal;
 }
 
 .border-2 {
@@ -798,10 +782,6 @@ video {
 
 .bg-contain {
   background-size: contain;
-}
-
-.bg-cover {
-  background-size: cover;
 }
 
 .bg-fixed {
