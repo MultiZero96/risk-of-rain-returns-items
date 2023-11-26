@@ -25,10 +25,10 @@
             <div class="flex flex-wrap justify-center lg:justify-between 2xl:justify-around">
                 <div class="item-container">
                     <h3 class="text-3xl font-bold my-4 text-center"><span id="Common"><span
-                                style="color: #FFFFFF;">Common</span></span></h3>
+                                class="text-white">Common</span></span></h3>
 
-                    <div
-                        class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 lg:grid-cols-12 xl:grid-cols-6 bg-[#221f30] rounded-xl p-2 md:p-6">
+                    <div class=" grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 lg:grid-cols-12 xl:grid-cols-6
+                                bg-[#221f30] rounded-xl p-2 md:p-6">
                         <div x-data="{open:false}"
                             class="item-wrapper m-2 border-2 w-16 h-16 flex bg-white bg-opacity-10 hover:bg-opacity-25 items-center justify-center relative">
                             <div class="w-full h-full flex items-center justify-center" @mouseover="open=true"
@@ -46,8 +46,8 @@
                                 Enemies drop chunks of healing meat.
                                 <span style="color: #E5C962;">8%</span> chance on hit to <span
                                     style="color: #319AD2;">drop
-                                    2 meat nuggets</span> that <span style="color: #9CE562;">heal</span> for <span
-                                    style="color: #9CE562;">2x8</span>
+                                    2 meat nuggets</span> that <span style="color: #9CE562;">heal</span> for
+                                <span style="color: #9CE562;">2x8</span>
                                 <span class="text-red-500">(+6 per stack) </span><span
                                     style="color: #9CE562;">health</span>.
                                 <span class="text-slate-600">Unlocked by default.</span>
@@ -68,11 +68,13 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Fire_Shield" title="Fire Shield">Fire
                                     Shield</a><br>
                                 Retaliate on taking heavy damage.
-                                After taking more than <span style="color: #E58262;">10% of your health</span> as
+                                After taking more than <span style="color: #E58262;">10% of your health</span>
+                                as
                                 damage, explode for <span style="color: #E5C962;">400%</span> <span
                                     class="text-red-500">(+200% per stack) </span><span
                                     style="color: #9CE562;">damage</span>, <span style="color: #319AD2;">knocking
-                                    enemies away</span> <span class="text-red-500">(+20% force per stack)</span>.
+                                    enemies away</span> <span class="text-red-500">(+20% force per
+                                    stack)</span>.
                                 <span class="text-slate-600">Unlocked by default.</span>
                             </div>
                         </div>
@@ -92,9 +94,11 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Bustling_Fungus"
                                     title="Bustling Fungus">Bustling Fungus</a><br>
                                 Heal quickly when standing still for 2 seconds.
-                                After standing still for 2 seconds, <span style="color: #9CE562;">heal</span> for <span
-                                    style="color: #9CE562;">4.5%</span> <span class="text-red-500">(+4.5% per
-                                    stack)</span> of your <span style="color: #9CE562;">health</span> every second to
+                                After standing still for 2 seconds, <span style="color: #9CE562;">heal</span>
+                                for <span style="color: #9CE562;">4.5%</span> <span class="text-red-500">(+4.5%
+                                    per
+                                    stack)</span> of your <span style="color: #9CE562;">health</span> every
+                                second to
                                 yourself and nearby allies.
                                 <span class="text-slate-600">Unlocked by default.</span>
                             </div>
@@ -162,8 +166,8 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Headstompers"
                                     title="Headstompers">Headstompers</a><br>
                                 Hurt enemies by falling.
-                                Hurt enemies by falling for up to <span style="color: #E5C962;">600%</span> <span
-                                    class="text-red-500">(+300% per stack) </span><span
+                                Hurt enemies by falling for up to <span style="color: #E5C962;">600%</span>
+                                <span class="text-red-500">(+300% per stack) </span><span
                                     style="color: #9CE562;">damage</span>.
                                 <span class="text-slate-600">Unlocked by default.</span>
                             </div>
@@ -183,7 +187,8 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Life_Savings" title="Life Savings">Life
                                     Savings</a><br>
                                 Gain gold over time.
-                                Generate <span style="color: #E5C962;">$1</span> <span class="text-red-500">(+$1 per
+                                Generate <span style="color: #E5C962;">$1</span> <span class="text-red-500">(+$1
+                                    per
                                     stack)</span> every 3 seconds. Scales with time.
                                 <span class="text-slate-600">Unlocked by default.</span>
                             </div>
@@ -229,7 +234,8 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Rusty_Knife" title="Rusty Knife">Rusty
                                     Knife</a><br>
                                 Chance to bleed on hit.
-                                <span style="color: #E5C962;">15%</span> <span class="text-red-500">(+15% per stack)
+                                <span style="color: #E5C962;">15%</span> <span class="text-red-500">(+15% per
+                                    stack)
                                 </span><span style="color: #9CE562;">chance to bleed</span> an enemy for <span
                                     style="color: #E5C962;">4x35% TOTAL damage</span>.
                                 <span class="text-slate-600">Unlocked by default.</span>
@@ -252,7 +258,8 @@
                                     title="Mysterious Vial">Mysterious Vial</a><br>
                                 Increased health regeneration.
                                 Increase <span style="color: #9CE562;">health regeneration</span> by <span
-                                    style="color: #9CE562;">0.84</span> <span class="text-red-500">(+0.84 per stack)
+                                    style="color: #9CE562;">0.84</span> <span class="text-red-500">(+0.84 per
+                                    stack)
                                 </span><span style="color: #9CE562;">hp</span> per second.
                                 <span class="text-slate-600">Unlocked by default.</span>
                             </div>
@@ -273,7 +280,8 @@
                                     Tube</a><br>
                                 Chance to launch a mortar.
                                 <span style="color: #E5C962;">9%</span> chance on hit to fire a mortar for <span
-                                    style="color: #E5C962;">170%</span> <span class="text-red-500">(+170% per stack)
+                                    style="color: #E5C962;">170%</span> <span class="text-red-500">(+170% per
+                                    stack)
                                 </span><span style="color: #9CE562;">TOTAL damage</span>.
                                 <span class="text-slate-600">Unlocked by default.</span>
                             </div>
@@ -292,7 +300,8 @@
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Warbanner"
                                     title="Warbanner">Warbanner</a><br>
-                                Drop a Warbanner on level up or activating the teleporter, giving you great strength.
+                                Drop a Warbanner on level up or activating the teleporter, giving you great
+                                strength.
                                 On <span style="color: #319AD2;">level up</span> or <span
                                     style="color: #319AD2;">activating
                                     the Teleporter</span>, drop a banner that
@@ -366,9 +375,10 @@
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Crowbar" title="Crowbar">Crowbar</a><br>
                                 Deal bonus damage to healthy monsters.
-                                Deal <span style="color: #E5C962;">+50%</span> <span class="text-red-500">(+30% per
-                                    stack) </span><span style="color: #9CE562;">damage</span> to enemies above <span
-                                    style="color: #E5C962;">80% health</span>.
+                                Deal <span style="color: #E5C962;">+50%</span> <span class="text-red-500">(+30%
+                                    per
+                                    stack) </span><span style="color: #9CE562;">damage</span> to enemies above
+                                <span style="color: #E5C962;">80% health</span>.
                                 <span class="text-slate-600">Unlocked by default.</span>
                             </div>
                         </div>
@@ -436,7 +446,8 @@
                                     title="Backup Magazine">Backup Magazine</a><br>
                                 Add an extra charge of your Secondary skill.
                                 Add <span style="color: #319AD2;">+1</span> <span class="text-red-500">(+1 per
-                                    stack)</span> charge of your <span style="color: #9CE562;">Secondary skill</span>.
+                                    stack)</span> charge of your <span style="color: #9CE562;">Secondary
+                                    skill</span>.
                                 <span class="text-slate-600">Unlocked by default.</span>
                             </div>
                         </div>
@@ -544,7 +555,8 @@
                                 Chance to attach a bomb to enemies.
                                 <span style="color: #E5C962;">9%</span> chance on hit to attach a <span
                                     style="color: #E5C962;">bomb</span> to an enemy, detonating for <span
-                                    style="color: #E5C962;">140%</span> <span class="text-red-500">(+140% per stack)
+                                    style="color: #E5C962;">140%</span> <span class="text-red-500">(+140% per
+                                    stack)
                                 </span><span style="color: #9CE562;">TOTAL damage</span>.
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Engineer" title="Engineer">Engineer</a>:
                                 Detonate 15 Bounding Mines
@@ -565,12 +577,14 @@
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Snake_Eyes" title="Snake Eyes">Snake
                                     Eyes</a><br>
-                                Gain increased critical strike chance on failing a shrine. Resets between stages.
+                                Gain increased critical strike chance on failing a shrine. Resets between
+                                stages.
                                 <span style="color: #319AD2;">Failing a shrine</span> increases <span
                                     style="color: #E5C962;">critical chance</span> by <span
                                     style="color: #E5C962;">7%</span>
                                 <span class="text-red-500">(+7% per
-                                    stack)</span>, up to <span style="color: #9CE562;">6 times</span>. Resets at the
+                                    stack)</span>, up to <span style="color: #9CE562;">6 times</span>. Resets at
+                                the
                                 start of each stage.
                                 Pass a shrine 4 times in a row.
                             </div>
@@ -592,7 +606,8 @@
                                     title="Hermit's Scarf">Hermit's Scarf</a><br>
                                 Chance to evade incoming damage.
                                 <span style="color: #9CE562;">10%</span> <span class="text-red-500">(+10% per
-                                    stack)</span> chance to <span style="color: #9CE562;">evade</span> incoming damage.
+                                    stack)</span> chance to <span style="color: #9CE562;">evade</span> incoming
+                                damage.
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Huntress" title="Huntress">Huntress</a>:
                                 Achieve 200% attack speed.
                             </div>
@@ -612,8 +627,8 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Gasoline"
                                     title="Gasoline">Gasoline</a><br>
                                 Killing enemies sets the ground on fire.
-                                Killing enemies burns the ground for <span style="color: #E5C962;">60%</span> <span
-                                    class="text-red-500">(+40% per stack) </span><span
+                                Killing enemies burns the ground for <span style="color: #E5C962;">60%</span>
+                                <span class="text-red-500">(+40% per stack) </span><span
                                     style="color: #9CE562;">damage</span>.
                                 Defeat 20 Lemurians in one playthrough.
                             </div>
@@ -633,8 +648,10 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Spikestrip"
                                     title="Spikestrip">Spikestrip</a><br>
                                 Drop spikestrips on being hit, snaring enemies.
-                                When hit, drop spikestrips that <span style="color: #E5C962;">snare</span> enemies for
-                                <span style="color: #E5C962;">1</span> <span class="text-red-500">(+0.5 per stack)
+                                When hit, drop spikestrips that <span style="color: #E5C962;">snare</span>
+                                enemies for
+                                <span style="color: #E5C962;">1</span> <span class="text-red-500">(+0.5 per
+                                    stack)
                                 </span><span style="color: #9CE562;">second</span>.
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Enforcer" title="Enforcer">Enforcer</a>:
                                 Block 2000 damage total with
@@ -678,8 +695,9 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Voltaic_Mitt"
                                     title="Voltaic Mitt">Voltaic Mitt</a><br>
                                 Climbed ropes are electrified.
-                                Climbing creates an <span style="color: #E5C962;">electric trail</span> that deals <span
-                                    style="color: #E5C962;">50% damage</span> <span class="text-red-500">(+30% per
+                                Climbing creates an <span style="color: #E5C962;">electric trail</span> that
+                                deals <span style="color: #E5C962;">50% damage</span> <span class="text-red-500">(+30%
+                                    per
                                     stack)</span>.
                                 Complete the Providence Trial <a
                                     href="https://riskofrainreturns.wiki.gg/wiki/Hot-Rope_Hop"
@@ -704,7 +722,8 @@
                                 Touch enemies to weaken them.
                                 <span style="color: #E58262;">Infect</span> enemies on contact for <span
                                     style="color: #E5C962;">3</span> seconds, causing them to receive <span
-                                    style="color: #E5C962;">30%</span> <span class="text-red-500">(+15% per stack)
+                                    style="color: #E5C962;">30%</span> <span class="text-red-500">(+15% per
+                                    stack)
                                 </span><span style="color: #9CE562;">extra damage</span> from all sources.
                                 Find the illegal shipment.
                             </div>
@@ -724,8 +743,9 @@
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Mu_Construct" title="Mu Construct">Mu
                                     Construct</a><br>
                                 Heal periodically after activating the teleporter.
-                                Heal by <span style="color: #9CE562;">2.5% of your maximum health</span> every <span
-                                    style="color: #E5C962;">5</span> <span class="text-red-500">(-25% per stack)
+                                Heal by <span style="color: #9CE562;">2.5% of your maximum health</span> every
+                                <span style="color: #E5C962;">5</span> <span class="text-red-500">(-25% per
+                                    stack)
                                 </span><span style="color: #9CE562;">seconds</span> <span style="color: #E58262;">after
                                     the Teleporter has been activated.</span>
                                 Find this item hidden somewhere in the world to unlock it.
@@ -749,8 +769,8 @@
                                 Gain <span style="color: #E5C962;">3% critical chance</span> <span
                                     class="text-red-500">(+3%
                                     per stack)</span>. <span style="color: #9CE562;">Critical
-                                    strikes drop $1</span> <span class="text-red-500">(+1$ per stack)</span><span
-                                    style="color: #9CE562;">
+                                    strikes drop $1</span> <span class="text-red-500">(+1$ per
+                                    stack)</span><span style="color: #9CE562;">
                                     gold</span>.
                                 Kill 12 enemies simultaneously using the <span class="item-link tooltip"><a
                                         href="https://riskofrainreturns.wiki.gg/wiki/Gold-Plated_Bomb" title=""><img
@@ -768,11 +788,14 @@
                                                         data-file-width="200"
                                                         data-file-height="200"></a></span></span><span
                                             class="tooltip-text">Gold-Plated Bomb<span class="cooldown">45s
-                                                CD</span><span style="color:#959494;"><br>Drop and detonate 50% of your
+                                                CD</span><span style="color:#959494;"><br>Drop and detonate 50%
+                                                of your
                                                 money.</span><br><span class="makeshift-hr"></span>Use <span
-                                                style="color: #E5C962;">50% of your gold</span> to create a bomb,
-                                            dealing <span style="color: #E5C962;">1 damage per gold spent</span>. <span
-                                                style="color: #E5C962;">Refund 20% of spent gold</span> on
+                                                style="color: #E5C962;">50% of your gold</span> to create a
+                                            bomb,
+                                            dealing <span style="color: #E5C962;">1 damage per gold
+                                                spent</span>. <span style="color: #E5C962;">Refund 20% of spent
+                                                gold</span> on
                                             kill.</span></span></span>.
                             </div>
                         </div>
@@ -847,7 +870,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Smart_Shopper"
-                                    title="Smart Shopper">Smart Shopper</a><br>
+                                    title="Smart Shopper">Smart
+                                    Shopper</a><br>
                                 Enemies drop extra gold.
                                 Killed enemies drop <span style="color: #E5C962;">25%</span> <span
                                     class="text-red-500">(+25%
@@ -983,7 +1007,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Rusty_Jetpack"
-                                    title="Rusty Jetpack">Rusty Jetpack</a><br>
+                                    title="Rusty Jetpack">Rusty
+                                    Jetpack</a><br>
                                 Increase jump height and reduce gravity.
                                 Decrease <span style="color: #319AD2;">gravity</span> while holding the jump button by
                                 <span style="color: #319AD2;">10%</span> <span class="text-red-500">(-10% per
@@ -1051,7 +1076,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Boxing_Gloves"
-                                    title="Boxing Gloves">Boxing Gloves</a><br>
+                                    title="Boxing Gloves">Boxing
+                                    Gloves</a><br>
                                 Chance to knock enemies backwards for extra damage.
                                 <span style="color: #E5C962;">6%</span> <span class="text-red-500">(+6% per
                                     stack)</span> chance on hitting enemies to <span style="color: #9CE562;">knock them
@@ -1119,7 +1145,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Hopoo_Feather"
-                                    title="Hopoo Feather">Hopoo Feather</a><br>
+                                    title="Hopoo Feather">Hopoo
+                                    Feather</a><br>
                                 Gain an extra jump.
                                 Gain <span style="color: #319AD2;">+1</span> <span class="text-red-500">(+1 per
                                     stack)</span> maximum <span style="color: #9CE562;">jump count</span>.
@@ -1199,7 +1226,8 @@
                                     1.3m each kill</span> up to <span style="color: #E5C962;">40m</span>. Lasts for
                                 <span style="color: #E5C962;">6</span> seconds without killing enemies.
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Mercenary"
-                                    title="Mercenary">Mercenary</a>: Eviscerate 50 enemies.
+                                    title="Mercenary">Mercenary</a>:
+                                Eviscerate 50 enemies.
                             </div>
                         </div>
                         <div x-data="{open:false}"
@@ -1270,7 +1298,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/56_Leaf_Clover"
-                                    title="56 Leaf Clover">56 Leaf Clover</a><br>
+                                    title="56 Leaf Clover">56
+                                    Leaf Clover</a><br>
                                 Elite mobs have a chance to drop items.
                                 Elite mobs have a <span style="color: #319AD2;">4%</span> <span
                                     class="text-red-500">(+1.5%
@@ -1531,7 +1560,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Locked_Jewel"
-                                    title="Locked Jewel">Locked Jewel</a><br>
+                                    title="Locked Jewel">Locked
+                                    Jewel</a><br>
                                 Activating an interactable grants barrier and gold.
                                 Activating an interactable heals <span style="color: #9CE562;">35%</span> <span
                                     class="text-red-500">(+15% per stack)</span> of your <span
@@ -1811,7 +1841,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Plasma_Chain"
-                                    title="Plasma Chain">Plasma Chain</a><br>
+                                    title="Plasma Chain">Plasma
+                                    Chain</a><br>
                                 Chance on hit to tether onto up to 1 enemy, dealing damage to any enemies in the path.
                                 Chance on hit to <span style="color: #E5C962;">tether</span> onto up to <span
                                     style="color: #319AD2;">1</span> <span class="text-red-500">(+1 per stack)</span>
@@ -1856,7 +1887,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Rapid_Mitosis"
-                                    title="Rapid Mitosis">Rapid Mitosis</a><br>
+                                    title="Rapid Mitosis">Rapid
+                                    Mitosis</a><br>
                                 Reduce the cooldown of equipment.
                                 Reduce the <span style="color: #319AD2;">cooldown of equipment</span> by <span
                                     style="color: #319AD2;">25%</span> <span class="text-red-500">(+25% per
@@ -1999,7 +2031,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Laser_Turbine"
-                                    title="Laser Turbine">Laser Turbine</a><br>
+                                    title="Laser Turbine">Laser
+                                    Turbine</a><br>
                                 Using skills charges up to a huge laser blast.
                                 Using <span style="color: #319AD2;">skills</span> charges the generator by <span
                                     style="color: #E5C962;">7.8%</span> <span class="text-red-500">(+7.8% per stack)
@@ -2092,8 +2125,8 @@
                                             decoding="async" loading="lazy" width="19" height="24" data-file-width="125"
                                             data-file-height="155"></a><span style="margin-left:0.2em;"></span><a
                                         href="https://riskofrainreturns.wiki.gg/wiki/Guardian%27s_Heart"
-                                        title="">Guardian's Heart</a><span class="tooltip-block"><span
-                                            class="tooltip-icon"><span><a
+                                        title="">Guardian's
+                                        Heart</a><span class="tooltip-block"><span class="tooltip-icon"><span><a
                                                     href="https://riskofrainreturns.wiki.gg/wiki/File:Guardiansheart.png"
                                                     class="image" title=""><img alt="Guardiansheart.png"
                                                         src="https://riskofrainreturns.wiki.gg/images/thumb/b/b0/Guardiansheart.png/39px-Guardiansheart.png"
@@ -2123,7 +2156,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/The_Ol%27_Lopper"
-                                    title="The Ol' Lopper">The Ol' Lopper</a><br>
+                                    title="The Ol' Lopper">The
+                                    Ol' Lopper</a><br>
                                 Enemies take more damage at lower health.
                                 Deal <span style="color: #E5C962;">bonus damage</span> to enemies with lower health, up
                                 to <span style="color: #E5C962;">+60%</span> <span class="text-red-500">(+60% per
@@ -2326,7 +2360,8 @@
                                     style="color: #319AD2;">Unique to each character</span>. <span
                                     class="text-red-500">Reduces special skill cooldown by 30% per stack.</span>
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Mercenary"
-                                    title="Mercenary">Mercenary</a>: Beat the game on Monsoon
+                                    title="Mercenary">Mercenary</a>:
+                                Beat the game on Monsoon
                                 difficulty.
                             </div>
                         </div>
@@ -2344,7 +2379,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Bottled_Chaos"
-                                    title="Bottled Chaos">Bottled Chaos</a><br>
+                                    title="Bottled Chaos">Bottled
+                                    Chaos</a><br>
                                 Using your Equipment triggers an additional, random Equipment effect.
                                 Activating an Equipment triggers a <span style="color: #E5C962;">random equipment</span>
                                 effect <span style="color: #E5C962;">1</span> <span class="text-red-500">(+1 per
@@ -2373,7 +2409,8 @@
                                     style="color: #9CE562;">20%</span> <span class="text-red-500">(+20% per
                                     stack)</span>.
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Artificer"
-                                    title="Artificer">Artificer</a>: Multi-kill 15 enemies.
+                                    title="Artificer">Artificer</a>:
+                                Multi-kill 15 enemies.
                             </div>
                         </div>
                         <div x-data="{open:false}"
@@ -2477,7 +2514,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Rotten_Brain"
-                                    title="Rotten Brain">Rotten Brain</a><br>
+                                    title="Rotten Brain">Rotten
+                                    Brain</a><br>
                                 Throw a bouncing brain.
                                 Throw a brain that bounces in place, damaging/slowing enemies for <span
                                     style="color: #E5C962;">6x200%.</span>
@@ -2567,7 +2605,8 @@
                             <div x-cloak x-show="open" @mouseover="open=true" @mouseleave="open=false"
                                 class="item-description z-50 p-4 absolute left-1/2 top-1/2 w-96 bg-black">
                                 <a href="https://riskofrainreturns.wiki.gg/wiki/Foreign_Fruit"
-                                    title="Foreign Fruit">Foreign Fruit</a><br>
+                                    title="Foreign Fruit">Foreign
+                                    Fruit</a><br>
                                 Heal on use.
                                 Heal yourself for <span style="color: #9CE562;">50% of your health</span>.
                                 45s
